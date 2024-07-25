@@ -1,0 +1,188 @@
+h1 {
+    text-align: center;
+    color: #2e2f42;
+    font-size: 30px;
+    color: yellowgreen;
+}
+
+.timer {
+    display: flex;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.value {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-left: 24px;
+}
+
+.label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+    margin-left: 24px;
+    text-transform: uppercase;
+}
+
+.btn {
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+
+.btn:enabled {
+    background: #4e75ff;
+    cursor: pointer;
+}
+
+.btn:enabled:hover {
+    background: #6c8cff;
+}
+
+.btn:disabled {
+    background: #cfcfcf;
+    cursor: not-allowed;
+    color: #989898;
+}
+
+.input {
+    border: 1px solid #808080;
+    color: #2e2f42;
+    background: #fff;
+    border-radius: 4px;
+    width: 272px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    margin-right: 8px;
+    margin-bottom: 32px;
+    outline: none;
+}
+
+.input:hover {
+    border: 1px solid #000;
+}
+
+.input:active {
+    border: 1px solid #4e75ff;
+    color: #000;
+}
+
+.input:disabled {
+    background: #fafafa;
+    border: 1px solid #808080;
+    color: #808080;
+}
+
+/* ---------------------snackbar-------------------- */
+
+.form {}
+
+.delay-input {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    padding-left: 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    outline: none;
+}
+
+.delay-input:hover {
+    border: 1px solid #000;
+}
+
+.delay-input:focus {
+    border: 1px solid #4e75ff;
+}
+
+.delay-label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.fieldset-legend {
+    border-radius: 4px;
+    stroke-width: 1px;
+    stroke: #808080;
+    width: 352px;
+    height: 64px;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+legend {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-left: 28px;
+}
+
+
+.state-input {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2e2f42;
+}
+
+.btn-submit {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background: #4e75ff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    margin-top: 24px;
+}
+
+.btn-submit:hover {
+    background: #6c8cff;
+}
